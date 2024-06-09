@@ -52,7 +52,9 @@
 # while True:
 #     number = int(input("Podaj liczbę punktów: "))
 #     match number:
-#         case _ if number >= 90:
+#         case _ if number > 100:
+#             print("Punktacja nie może być większa iż 100pkt")
+#         case _ if 100 <= number >= 90:
 #             print("Ocena 5")
 #         case _ if 80 <= number <= 89:
 #             print("Ocena 4")
