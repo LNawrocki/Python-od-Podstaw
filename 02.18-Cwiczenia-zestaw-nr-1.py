@@ -11,7 +11,7 @@
 #
 # 4. Napisz program, który wyświetli liczby od 0 do 100
 #
-# 5. Napisz program, który wyświetli wszystki liczby pierwsze od 1 do 100
+# 5. Napisz program, który wyświetli wszystkie liczby pierwsze od 1 do 100
 #
 # 6. Napisz program, który wyświetli sumę wszystkich liczb parzystych z przedziału 1 - 100
 #
@@ -62,5 +62,56 @@
 #             print("Ocena 2")
 #         case _:
 #             print("Ocena 1")
+
+###################################################
+
+#4
+# for number in range(1, 101):
+#     print(number)
+
+###################################################
+
+#5
+
+###################################################
+
+#6
+# sum = 0
+# for number in range(1, 101):
+#     if number % 2 == 0:
+#         sum += number
+# print(sum)
+
+###################################################
+
+#7
+# dimA = int(input("Podaj pierwszy bok (cm): "))
+# dimB = int(input("Podaj drugi bok (cm): "))
+#
+# print(f"Pole prostokąta wynosi {dimA * dimB}cm")
+
+###################################################
+
+#8
+# name = input("Podaj imie: ")
+#
+# if name.endswith("a"):
+#     print("Podałeś imie żeńskie")
+# else:
+#     print("Podałeś imie męskie")
+#
+
+###################################################
+
+#9
+# print("Podaj 3 liczby - uporządkuję je narastająco.")
+#
+# num1 = int(input("Podaj pierwszą liczbę: "))
+# num2 = int(input("Podaj drugą liczbę: "))
+# num3 = int(input("Podaj trzecią liczbę: "))
+
+###################################################
+
+#10
 
 
